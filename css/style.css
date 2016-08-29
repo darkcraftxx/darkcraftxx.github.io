@@ -19,3 +19,9 @@
 .font {
   font-family: 'Baloo Tamma', cursive;
 }
+
+.nav.nabar.shrink {
+	min-height: 35px;
+	-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}

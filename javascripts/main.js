@@ -1,1 +1,7 @@
-console.log('This would be the main JS file.');
+$(window).scroll(function() {
+	if ($(document).scrollTop() > 50) {
+		$('nav').addClass('shrink');
+	} else {
+		$('nav').removeClass('shrink');
+	}
+});
