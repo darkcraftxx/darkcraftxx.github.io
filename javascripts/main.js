@@ -5,7 +5,3 @@ $(window).scroll(function() {
 		$('nav').removeClass('shrink');
 	}
 });
-
-$(document).ready(function() {
-	console.log("hello world");
-});

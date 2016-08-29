@@ -20,7 +20,7 @@
   font-family: 'Baloo Tamma', cursive;
 }
 
-.nav.navbar.shrink {
+nav.navbar.shrink {
 	min-height: 35px;
 }
 
