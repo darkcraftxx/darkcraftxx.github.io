@@ -33,4 +33,7 @@ nav.navbar {
 .logo {
 	background-image: url('/images/mountain.jpg');
 	background-color: black;
+	max-width: 100%;
+	height: auto;
+	display: block;
 }
