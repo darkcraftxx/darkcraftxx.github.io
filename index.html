@@ -35,7 +35,7 @@
           bx=c.width/2;
           by=c.height/2;
           cc=c.getContext('2d');
-          game = setInterval(update,1000/60);
+          setInterval(update,1000/60);
           c.addEventListener('mousemove',function(e){
             p1y=e.clientY-ph/2;
           });
@@ -83,24 +83,6 @@
             p2y+=ais;
           } else {
             p2y-=ais;
-          }
-          
-          function keyDown(e) {
-            if (e.keyCode == 80) pauseGame();
-          }
-          
-          function pauseGame() {
-            game = clearTimeout(game);
-          }
-          
-          function pauseGame() {
-            if (!gamePaused) {
-              game = clearInterval(game);
-              gamePaused = true;
-            } else if (gamePaused) {
-              game = setInterval(update,1000/60);
-              gamePaused = false;
-            }
           }
           
           cc.fillStyle='black';
