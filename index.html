@@ -34,6 +34,8 @@
         
         window.onload=function() {
           c=document.getElementById('gc');
+          bx=c.width/2;
+          by=c.height/2;
           cc=c.getContext('2d');
           setInterval(update,1000/30);
           c.addEventListener('mousemove',function(e){
