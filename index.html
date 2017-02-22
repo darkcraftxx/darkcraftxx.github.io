@@ -27,7 +27,7 @@
       bd=10;
       xv=yv=20;
       score1=score2=0;
-      ais=20;
+      ais=18;
       title1="DEINE MAMA";
         
         window.onload=function() {
@@ -35,7 +35,7 @@
           bx=c.width/2;
           by=c.height/2;
           cc=c.getContext('2d');
-          game = setTimeout(gameLoop,1000/60);
+          game = setInterval(update,1000/60);
           c.addEventListener('mousemove',function(e){
             p1y=e.clientY-ph/2;
           });
@@ -95,10 +95,10 @@
           
           function pauseGame() {
             if (!gamePaused) {
-              game = clearTimeout(game);
+              game = clearInterval(game);
               gamePaused = true;
             } else if (gamePaused) {
-              game = setTimeout(gameloop,1000/60);
+              game = setInterval(update,1000/60);
               gamePaused = false;
             }
           }
