@@ -35,7 +35,7 @@
           bx=c.width/2;
           by=c.height/2;
           cc=c.getContext('2d');
-          setInterval(update,1000/60);
+          game=setInterval(update,1000/60);
           c.addEventListener('mousemove',function(e){
             p1y=e.clientY-ph/2;
           });
@@ -84,7 +84,25 @@
           } else {
             p2y-=ais;
           }
-            
+          
+          function keyDown(e) {
+            if (e.keyCode == 80) pauseGame();
+          }
+          
+          function pauseGame() {
+            game = clearTimeout(game);
+          }
+          
+          function pauseGame() {
+            if (!gamePaused) {
+              game = clearTimeout(game);
+              gamePaused = true;
+            } else if (gamePaused) {
+              game = setTimeout(update, 1000 / 30);
+              gamePaused = false;
+            }
+          }
+          
           cc.fillStyle='black';
           cc.fillRect(0,0,c.width,c.height);
           cc.fillStyle='white';
