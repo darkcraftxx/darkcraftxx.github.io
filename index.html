@@ -29,14 +29,13 @@
       score1=score2=0;
       ais=20;
       title1="DEINE MAMA";
-      game = setTimeout(gameLoop,1000/60);
         
         window.onload=function() {
           c=document.getElementById('gc');
           bx=c.width/2;
           by=c.height/2;
           cc=c.getContext('2d');
-          setInterval(update,1000/60);
+          game = setTimeout(gameLoop,1000/60);
           c.addEventListener('mousemove',function(e){
             p1y=e.clientY-ph/2;
           });
