@@ -8,14 +8,14 @@
 
 .logo {
   height: 300px;
-  margin-top: -10px;
+  margin-top: -40px;
   padding-right: 15px;
   transition: height 1s ease 0s;
 }
 
 .logo:hover {
   height: 350px;
-  margin-top: -10px;
+  margin-top: -40px;
 }
 
 .logodiv {
