@@ -7,13 +7,15 @@
 }
 
 .logo {
-  height: 300px ;
-  transition: height 1s ease 0s ;
-  display: block ;
+  height: 300px;
+  margin-top: -10px;
+  padding-right: 15px;
+  transition: height 1s ease 0s;
 }
 
 .logo:hover {
-  height: 350px 
+  height: 350px;
+  margin-top: -10px;
 }
 
 .logodiv {
