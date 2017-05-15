@@ -1,4 +1,7 @@
 .navbar {
   border-bottom-color: #ac1927;
   border-bottom-width: 3px;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: sans-serif;
 }
