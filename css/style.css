@@ -9,6 +9,7 @@
 .logo {
   height: 70%;
   transition: height: 2s;
+  position: absolute;
 }
 
 .logo:hover {
