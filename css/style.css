@@ -7,13 +7,12 @@
 }
 
 .logo {
-  width: 80%;
   height: 80%;
   transition: height 1s ease 0s;
+  display: block;
 }
 
 .logo:hover {
-  width: 100%;
   height: 100%;
 }
 
