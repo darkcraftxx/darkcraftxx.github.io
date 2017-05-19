@@ -1,31 +1,9 @@
-.navbar {
+.navleiste {
   border-bottom-color: #ac1927;
   border-bottom-width: 3px;
   font-size: 1.5em;
   font-weight: 700;
   font-family: sans-serif;
-}
-
-.nav li {
-  margin-left: 250px;
-}
-.navbar-inverse .navbar-nav > li > a {
-  color: white;
-}
-
-.navbar-inverse .navbar-brand {
-  color: white;
-  font-size: 1em;
-  font-weight: 700;
-  font-family: sans-serif;
-}
-
-.navbar-inverse .navbar-brand:hover {
-  color: #ac1927;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover {
-  color: #ac1927;
 }
 
 .logo {
@@ -43,4 +21,15 @@
 
 .logodiv {
   position: absolute;
+}
+
+.navi {
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.navi:hover {
+  color: #ac1927;
 }
