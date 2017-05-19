@@ -8,10 +8,13 @@
 
 .nav li {
   margin-left: 250px;
-  color: white:
 }
 
-.nav li:hover {
+.nav li a {
+  color: white;
+}
+
+.nav li a:hover {
   color: #ac1927;
 }
 
