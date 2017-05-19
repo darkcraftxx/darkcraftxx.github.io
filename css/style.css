@@ -8,6 +8,11 @@
 
 .nav li {
   margin-left: 250px;
+  color: white:
+}
+
+.nav li:hover {
+  color: #ac1927;
 }
 
 .logo {
