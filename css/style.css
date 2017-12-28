@@ -4,6 +4,10 @@ body {
   background: #ccc;
 }
  
+.nav {
+  border-bottom: 3px solid #ac1927;
+}
+
 .nav ul {
   list-style: none;
   background-color: #444;
@@ -30,7 +34,7 @@ body {
 }
  
 .nav a:hover {
-  background-color: #cc2900;
+  background-color: #ac1927;
 }
  
 .nav a.active {
