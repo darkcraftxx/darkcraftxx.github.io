@@ -44,3 +44,7 @@
 .logodiv {
   position: absolute;
 }
+
+.container {
+  background-color: #e0e0eb;
+}
