@@ -18,7 +18,8 @@ body {
   line-height: 40px;
   height: 40px;
   border-bottom: 1px solid #888;
-  width: 370px;
+  width: 100px;
+  margin-right: 200px;
 }
  
 .nav a {
