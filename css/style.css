@@ -9,6 +9,10 @@ body {
   margin-bottom: 30px;
 }
 
+.raid {
+  margin-top: 20px;
+}
+
 .container {
   background-color: #fafbfc;
   border: 1px solid grey;
