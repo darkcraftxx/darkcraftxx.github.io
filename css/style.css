@@ -5,6 +5,11 @@ body {
   font-family: 'Roboto Condensed',sans-serif;
 }
  
+img:hover {
+  height: 120%;
+  weight: 120%;
+}
+
 .nav {
   border-bottom: 3px solid #ac1927;
   margin-bottom: 30px;
