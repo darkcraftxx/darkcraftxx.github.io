@@ -6,6 +6,11 @@ body {
  
 .nav {
   border-bottom: 3px solid #ac1927;
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
 }
 
 .nav ul {
