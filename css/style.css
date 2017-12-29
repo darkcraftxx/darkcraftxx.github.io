@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: 'images/hordebanner1.jpg';
+  background-image: url("images/hordebanner1.jpg");
+  background-repeat: repeat-y;
 }
  
 .nav {
