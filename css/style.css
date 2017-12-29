@@ -21,14 +21,12 @@ body {
 
 .sidebar-left {
   margin-left: 100px;
-  margin-top: 40px;
   margin-right: 100px;
   float: left;
 }
 
 .sidebar-right {
   margin-left: 100px;
-  margin-top: 40px;
   margin-right: 100px;
   float: right;
 }
