@@ -9,6 +9,11 @@ body {
   margin-bottom: 30px;
 }
 
+.container {
+  background-color: #fafbfc;
+  border: 1px solid grey;
+}
+
 .sidebar-left {
   margin-left: 100px;
   margin-top: 40px;
