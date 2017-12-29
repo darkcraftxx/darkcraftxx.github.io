@@ -145,16 +145,7 @@ h1 {
 .frame > div:last-of-type{
     position:absolute;bottom:5px;width:100%;display:flex;
 }
-ul {
-    width:100%;
-    list-style-type: none;
-    padding:18px;
-    position:absolute;
-    bottom:32px;
-    display:flex;
-    flex-direction: column;
 
-}
 .msj:before{
     width: 0;
     height: 0;
