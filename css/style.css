@@ -17,6 +17,7 @@ body {
 .container {
   background-color: #fafbfc;
   border: 1px solid grey;
+  max-width: 1000px;
 }
 
 .sidebar-left {
