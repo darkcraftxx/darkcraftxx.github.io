@@ -25,5 +25,6 @@
 	
 	
 </head>
-
+<?php include("includes/header.html"); ?>
+<?php include("includes/home.html"); ?>	
 </html>
