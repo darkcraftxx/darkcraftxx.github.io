@@ -28,8 +28,8 @@ img:hover {
 }
 
 .container {
+  background-image: url('images/horde2.png');
   background-color: #fafbfc;
-  background-image: url'images/horde2.png';
   border: 1px solid grey;
   max-width: 1000px;
 }
