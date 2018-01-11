@@ -11,6 +11,11 @@ img:hover {
   transition: 0.5s ease;
 }
 
+a:visited {
+  color: #ac1927;
+  text-decoration: none;
+}
+
 .title {
   color: #ac1927;
   text-decoration: none;
