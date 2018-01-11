@@ -37,8 +37,10 @@
       </ul>
     </div>
   </header>
-    
-<?php include("includes/home.html");?>
+
+<?php include("includes/home.html");
+    $_GET["url"]
+    ?>
 
     <!-- jQuery Version 1.11.1 -->
     <script src="js/jquery.min.js"></script>
