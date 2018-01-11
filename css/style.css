@@ -5,6 +5,10 @@ body {
   font-family: 'Play',sans-serif;
 }
  
+html {
+  background: url("https://www.walldevil.com/wallpapers/a89/nagrand-world-of-warcraft-wow.jpg") no-repeat center center fixed;
+}
+
 img:hover {
   transform: scale(1.2, 1.2);
   transition: 0.5s ease;
