@@ -27,7 +27,7 @@
 
 <body>
   <header>
-      <h1 style="color: #ac1927;"><a href="index.php">LastTry</a></h1>
+      <h1 class="title"><a href="index.php">LastTry</a></h1>
     <div class="nav">
       <ul>
         <li class="home"><a class="active" href="index.php">Home</a></li>
