@@ -30,8 +30,8 @@
       <h1 class="title"><a href="index.php">LastTry</a></h1>
     <div class="nav">
       <ul>
-        <li class="home"><a<?php if ($pagename == 'index.php') {echo ' class="current"';} ?> href="?page=home.html">Home</a></li>
-        <li class="guides"><a<?php if ($pagename == 'guides.html') {echo ' class="current"';} ?> href="?page=guides">Guides</a></li>
+        <li class="home"><a<?php if ($pagename == 'index.php') {echo ' class="aktiv"';} ?> href="?page=home.html">Home</a></li>
+        <li class="guides"><a<?php if ($pagename == 'guides.html') {echo ' class="aktiv"';} ?> href="?page=guides">Guides</a></li>
         <li class="kalender"><a href="#">Kalender</a></li>
         <li class="kontakt"><a href="#">Kontakt</a></li>
       </ul>
