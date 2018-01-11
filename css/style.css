@@ -2,10 +2,8 @@ body {
   background: url("https://www.walldevil.com/wallpapers/a89/nagrand-world-of-warcraft-wow.jpg") no-repeat center center fixed;
   margin: 0;
   padding: 0;
-  background: #272727;
   font-family: 'Play',sans-serif;
 }
-
 
 img:hover {
   transform: scale(1.2, 1.2);
@@ -35,6 +33,7 @@ img:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #fafbfc;
+  background: rgba(0, 0, 0, 0.6);
   border: 1px solid grey;
   max-width: 1000px;
 }
