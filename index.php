@@ -37,7 +37,6 @@
       </ul>
     </div>
   </header>
-<?php phpinfo(); ?>
     <div class="content"> 
         <div class="sidebar-left">
             <a href="https://www.wowprogress.com/guild/eu/azshara/LastTry"><img alt="WoW Guild Rankings" src="https://wowprogress.com/guild_img/1130626/out/type.site" border="0"/></a>
