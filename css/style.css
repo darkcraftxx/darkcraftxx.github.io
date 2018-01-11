@@ -4,6 +4,14 @@ body {
   background: #272727;
   font-family: 'Play',sans-serif;
 }
+
+html { 
+  background: url(images/nagrand.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
  
 img:hover {
   transform: scale(1.2, 1.2);
