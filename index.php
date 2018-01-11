@@ -31,17 +31,15 @@
     <div class="nav">
       <ul>
         <li class="home"><a<?php if ($pagename == 'index.php') {echo ' class="current"';} ?> href="index.php">Home</a></li>
-        <li class="guides"><a<?php if ($pagename == 'guides.html') {echo ' class="current"';} ?> href="guides.html">Guides</a></li>
+        <li class="guides"><a<?php if ($pagename == 'guides.html') {echo ' class="current"';} ?> href="includes/guides.html">Guides</a></li>
         <li class="kalender"><a href="#">Kalender</a></li>
         <li class="kontakt"><a href="#">Kontakt</a></li>
       </ul>
     </div>
   </header>
     
-<?php include("includes/home.html"); 
-
-    
-?>
+<?php include("includes/home.html");?>
+<?php include("includes/guides.html");?>
 
 
     <!-- jQuery Version 1.11.1 -->
