@@ -38,12 +38,7 @@
     </div>
   </header>
     
-<?php include("includes/home.html");
-if $url.page = guides(
-        include("includes/guides.html");
-    )
-    
-?>
+<?php include("includes/home.html");?>
 
     <!-- jQuery Version 1.11.1 -->
     <script src="js/jquery.min.js"></script>
