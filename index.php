@@ -27,10 +27,10 @@
 
 <body>
   <header>
-    <h1 style="color: #ac1927;">LastTry</h1>
+      <h1 style="color: #ac1927;"><a href="index.php">LastTry</a></h1>
     <div class="nav">
       <ul>
-        <li class="home"><a class="active" href="index.html">Home</a></li>
+        <li class="home"><a class="active" href="index.php">Home</a></li>
         <li class="guides"><a href="guides.html">Guides</a></li>
         <li class="kalender"><a href="#">Kalender</a></li>
         <li class="kontakt"><a href="#">Kontakt</a></li>
