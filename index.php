@@ -24,7 +24,7 @@
          <div class="nav">
             <ul>
                <li class="home"><a<?php if ($pagename == 'index.php') {echo ' class="aktiv"';} ?> href="index.php">Home</a></li>
-               <li class="guides"><a<?php if ($pagename == 'guides.html') {echo ' class="aktiv"';} ?> href="/includes/guides.hmtl">Guides</a></li>
+               <li class="guides"><a<?php if ($pagename == 'guides.html') {echo ' class="aktiv"';} ?> href="/includes/guides.html">Guides</a></li>
                <li class="kalender"><a href="#">Kalender</a></li>
                <li class="kontakt"><a href="#">Kontakt</a></li>
             </ul>
