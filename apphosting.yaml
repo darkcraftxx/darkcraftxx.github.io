@@ -1,7 +1,5 @@
-# apphosting.yaml (korrigierte Version)
-
 runConfig:
-  maxInstances: 1 # Kann angepasst oder entfernt werden
+  maxInstances: 1
 
 env:
   - variable: MICROSOFT_CLIENT_ID
@@ -11,6 +9,6 @@ env:
       - RUNTIME
 
   - variable: MICROSOFT_CLIENT_SECRET
-    secret: DESKEASE_MS_CLIENT_SECRET # <--- Jetzt passt der Name des Secrets!
+    secret: DESKEASE_MS_CLIENT_SECRET
     availability:
       - RUNTIME
