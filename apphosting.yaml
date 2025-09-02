@@ -1,0 +1,30 @@
+# Settings for Backend (on Cloud Run).
+# See https://firebase.google.com/docs/app-hosting/configure#cloud-run
+runConfig:
+  minInstances: 0
+  # maxInstances: 100
+  # concurrency: 80
+  # cpu: 1
+  # memoryMiB: 512
+
+# Environment variables and secrets.
+env:
+  # Die Client ID ist in der Regel nicht geheim und kann direkt als Wert angegeben werden.
+  # Dies ist der Wert aus deiner Firebase Authentication Konfiguration für Microsoft.
+  - variable: MICROSOFT_CLIENT_ID
+    value: "29ad232f-c71d-40f3-92e4-87f8d8ce5312"
+    availability:
+      - BUILD
+      - RUNTIME
+
+  # Das Client Secret ist GEHEIM und muss als Secret referenziert werden.
+  # Ersetze den Platzhalter mit dem Namen, den du deinem Secret gleich geben wirst.
+  - variable: MICROSOFT_CLIENT_SECRET
+    secret: DESKEASE_MS_CLIENT_SECRET
+    availability:
+      - RUNTIME # Secrets werden typischerweise zur Laufzeit der Anwendung benötigt
+
+  # Grant access to secrets in Cloud Secret Manager.
+  # See https://firebase.google.com/docs/app-hosting/configure#secret-parameters
+  # - variable: MY_SECRET
+  #   secret: mySecretRef
